@@ -1,0 +1,37 @@
+.nav{
+    background-color: gray;
+    font-variant: small-caps;
+    font-size: 200%;
+    text-align: center;
+   
+}
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top: 600px;
+    font-variant: small-caps;
+    font-size: 200%
+}
+.Conoce_Mas{
+    width:500px;
+    height:500px;
+    position:absolute;
+     top: 90px;
+     bottom: 2px;
+     left: 90px;
+}
+@Media all and (min-width:900px){
+
+    .conoce_mas{
+        left:500px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,92 @@
+.nav{
+    background-color: gray;
+    font-variant: small-caps;
+    font-size: 200%;
+    text-align: center;
+   
+}
+body{
+    background-color: bisque;
+}
+.img1{
+    font-variant: small-caps;
+    font-size: 250%;
+    position:absolute;
+    top: 80px;
+    left: 260px;
+}
+.img1a{
+    width:456px;
+    height:600px;
+    position:absolute;
+    top: 160px;
+    left: 120px;
+}
+.img2{
+    font-variant: small-caps;
+    font-size: 250%;
+    position:absolute;
+    top: 1500px;
+    left: 230px;
+}
+.img2a{
+    width:569px;
+    height:600px;
+    position:absolute;
+    top: 1600px;
+    left: 40px;
+}
+.img3{
+    font-variant: small-caps;
+    font-size: 250%;
+    position:absolute;
+    top: 760px;
+    left: 230px;
+}
+.img3a{
+    width:600px;
+    height:600px;
+    position:absolute;
+    top: 880px;
+    left: 40px;
+}
+.img4{
+    font-variant: small-caps;
+    font-size: 250%;
+    position:absolute;
+    top: 2200px;
+    left: 250px;
+}
+.img4a{
+    width:600px;
+    height:500px;
+    position:absolute;
+    top: 2350px;
+    left: 40px;
+}
+.inf{
+    position:absolute;
+    top: 1500px;
+    left: 640px;
+}
+@Media all and (min-width:900px){
+
+    .img4{
+        top:750px;
+        left:900px;
+    }
+    .img4a{
+        top:900px;
+        left:690px;
+    }
+    .img2{
+        top:80px;
+        left:900px;
+    }
+    .img2a{
+        top:180px;
+        left:690px;
+    }
+
+
+}
